@@ -1,0 +1,65 @@
+.header {
+    border-style: groove;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background: #6441A5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2a0845, #a56e41);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2a0845, #a57141); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.header{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+    font-size: 50px;
+}
+
+.recipePost{
+    border-style: double;
+    background-color: aliceblue;
+}
+
+.recipePost > img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    object-fit: cover;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.recipePost > h2 {
+    text-align: center;
+    font-family: fantasy;
+}
+.ingredients > h3{
+    text-align: center;
+}
+.ingredients > li{
+    margin-left: 20px;
+}
+.ingredients {
+    border-style:ridge;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.instructions {
+    border-style: ridge;
+}
+
+.instructions > h3{
+    text-align: center;
+}
+
+.recipeForm {
+    background-color:antiquewhite;
+    border-style: double;
+}
+
+.recipeForm > form > input{
+    width: 500px;
+}
